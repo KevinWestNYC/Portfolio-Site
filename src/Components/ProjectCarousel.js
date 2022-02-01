@@ -2,6 +2,9 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Grid, TextField, Button, Card, CardContent, Typography } from '@material-ui/core';
+import ProjectCard from "../Components/ProjectCard";
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -28,10 +31,10 @@ export default function ProjectCarousel() {
         "shadowOffset": 20,
         "shadowScale": 0.94
       }} pagination={true} className="mySwiper">
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide><ProjectCard/></SwiperSlide>
+        <SwiperSlide><Card><Typography>Chat App</Typography></Card></SwiperSlide>
+        <SwiperSlide><Card><Typography>Snake</Typography></Card></SwiperSlide>
+        <SwiperSlide><Card><Typography>React Expense tracker</Typography></Card></SwiperSlide>
      
       </Swiper>
     </>

@@ -10,6 +10,20 @@ html {
   box-sizing: border-box;
 }
 
+@keyframes moveInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
 .navbar {
     background: var(--white);
     height: 64px;
@@ -109,9 +123,9 @@ html {
     align-items: center;
   }
   
-  .swiper {
-    width: 240px;
-    height: 320px;
+  .mySwiper {
+    width: 333px;
+    height: 444px;
   }
   
   .swiper-slide {
@@ -163,4 +177,63 @@ html {
   .swiper-slide:nth-child(10n) {
     background-color: rgb(54, 94, 77);
   }
-  
+.project-carousel {
+    margin-top: 30px;
+}  
+.contact-form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icon-image {
+  height:50px;
+  width:50px
+}
+
+.profile-image {
+  height:400px;
+  width:auto;
+}
+
+.page-content {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: hidden;
+}
+
+#about-text {
+  text-align: left;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.profile-photo-div {
+  text-align: center;
+  padding: 10px;
+  animation-name: moveInFromLeft;
+  animation-duration: 5s;
+}
+
+#language-container {
+  padding-top: 50px;
+}
+
+#projects {
+  height: 650px
+}
+
+#about{
+  height:600px 
+}
+#footer {
+  height:55px
+}
+
+.page-title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+ 
+  /* font-family: 'Lato', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
