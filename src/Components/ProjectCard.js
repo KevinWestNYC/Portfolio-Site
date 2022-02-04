@@ -24,43 +24,82 @@ const useStyles = makeStyles({
     width: 250,
     marginTop: 20,
     marginLeft: 40,
+    // border: "0.5px solid lightgrey",
+    borderRadius: 5
   },
-  gifContainer: {},
-  cardActions:{
-  textAlign: "center"
-}
+  gifContainer: {}
 });
 
-export default function ImgMediaCard() {
+export default function ImgMediaCard({projectData}) {
   const classes = useStyles();
+  
 
   return (
     <Card className={classes.root}>
-      
-        <CardMedia
+      <CardMedia
         className={classes.gif}
-          component="img"
-          alt="Snake"
-          image={snakedemo}
-          title="Snake"
-        />
-        
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Snake
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Made using JS and html canvas
-          </Typography>
-        </CardContent>
-      <CardActions className={classes.cardActions}>
-        <Button size="small" color="primary">
-          Share
+        component="img"
+        alt={projectData.title}
+        image={projectData.imageLink}
+        title={projectData.title}
+      />
+
+      <div className="card-content">
+        <h2 className="lato" id="content-title">
+          {projectData.title}
+        </h2>
+        <Typography
+          className="montserrat"
+          id="content-body"
+          variant="body2"
+          color="textSecondary"
+          component="p"
+        >
+          {projectData.body}
+        </Typography>
+      </div>
+      <div className="card-actions">
+        { projectData.liveLink !== "" ?
+        <Button
+        className="project-button"
+          size="small"
+          color="primary"
+          variant="outlined"
+          target="_blank"
+          href={projectData.liveLink}
+        >
+          Live
+        </Button> :
+        <Button
+        className="project-button"
+
+          size="small"
+          color="primary"
+          variant="outlined"
+          target="_blank"
+          disabled
+          href={projectData.liveLink}
+        >
+          Not Live
+        </Button> 
+
+}
+{ projectData.gitLink !== "" &&
+        <Button
+        className="project-button"
+
+          size="small"
+          color="primary"
+          variant="outlined"
+          target="_blank"
+          href={projectData.gitLink}
+        >
+          Github
         </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
-      </CardActions>
+}
+      </div>
     </Card>
   );
 }
+
+

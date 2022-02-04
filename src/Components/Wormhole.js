@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Canvas, useFrame } from 'react-three-fiber';
+import { Canvas, useFrame } from '@react-three/fiber';
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass';
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass';

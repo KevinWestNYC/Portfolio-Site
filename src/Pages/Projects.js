@@ -14,8 +14,9 @@ export default function Projects() {
       <Grid direction="column" xs={12}md={4}>
         <Hidden smDown>
         <Canvas>
-          <ambientLight />
+          <ambientLight intensity={.8}/>
           <pointLight position={[10, 10, 10]} />
+          <pointLight position={[-20, -10, -20]} />
           <Box position={[0, 0, 0]} />
         </Canvas>
         </Hidden>

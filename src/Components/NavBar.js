@@ -14,13 +14,14 @@ export default function Navbar() {
     })
   }
   return (
-    <nav className='navbar sticky'>
+    <nav className='navbar sticky' id="navbar">
       <div className='nav-center'>
+        {/* add opacity when someting passes underneath */}
         {/* <img src={logo} alt='smooth scroll' /> */}
         <div>
           {links.map((link) => {
             return (
-              <a href={link.url} key={link.id} onClick={handleClick}>
+              <a className="nav-link" href={link.url} key={link.id} onClick={handleClick}>
                 {link.text}
               </a>
             )

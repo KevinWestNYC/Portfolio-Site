@@ -44,7 +44,7 @@ export default function ContactForm() {
     <div>
       {/* <h1>Contact</h1> */}
       <Grid>
-        <Card style={{ maxWidth: 450, padding: "20px 5px", margin: "0 auto" }}>
+        <Card elevated style={{ maxWidth: 450, padding: "20px 5px", margin: "0 auto" }}>
           <CardContent>
             <Typography gutterBottom variant="h5">
               Let's Collaborate!

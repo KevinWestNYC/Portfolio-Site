@@ -8,6 +8,10 @@ import About from "./Pages/About";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import NavBar from "./Components/NavBar";
+import Link from '@material-ui/core/Link';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default function App() {
   return (
@@ -27,7 +31,20 @@ export default function App() {
           <Contact />
         </section>
         <section id="footer">
-          need footer w social (linkedin, git, insta?)
+          <div>
+            <div>Made by Kevin West</div>
+            <div>
+              <Link href="https://github.com/KevinWestNYC" target="_blank">
+            <LinkedInIcon size="large"  />
+            </Link>
+            <Link href="https://www.linkedin.com/in/kevinwestnyc/" target="_blank">
+            <GitHubIcon size="large"  />
+            </Link>
+
+            {/* <InstagramIcon size="large" href="https://github.com/KevinWestNYC" /> */}
+            </div>
+          </div>
+          
         </section>
       </main>
     </div>

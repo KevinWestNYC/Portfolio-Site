@@ -16,6 +16,10 @@ export default function Box(props) {
     mesh.current.rotation.y += 0.002
     ));
 
+    const purple = "#5066F3"
+    const pink = "#F9686A"
+    // "#fe858c"
+
   return ( 
     <mesh
       {...props}
@@ -26,7 +30,7 @@ export default function Box(props) {
       onPointerOut={(event) => setHover(false)}
     >
       <boxGeometry args={[2, 2, 2]} />
-      <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
+      <meshStandardMaterial color={hovered ? pink : purple} />
     </mesh>
   );
 }

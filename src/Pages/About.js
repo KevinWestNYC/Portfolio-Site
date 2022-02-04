@@ -1,24 +1,26 @@
 import React from "react";
 import { Container, Grid, Hidden, Typography } from "@material-ui/core";
 import KevinProfilePicture from "../Images/KevinProfilePicture.jpg";
+import scale from "../Images/scale.png"
 
 export default function About() {
   return (
     <Container className="page-content">
-      <Typography variant="h2">About</Typography>
+      <h1 className="page-title" >About</h1>
       <Grid container>
         <Grid container direction="row">
-          <Grid item id="about-text" direction="column" xs={12} lg={5}>
-            <Typography>
-              My name is Kevin and I am a self-taught programmer from Brooklyn,
-              NY. Around one year ago I decided to change careers from an
-              athletic trainer to a developer and it has been an exciting
-              journey. In that time I have absorbed new languages and ways of
+          <Grid item id="about-text" direction="column" xs={12} sm={6}>
+            <p className="montserrat">
+              Hi, I'm Kevin! I'm a self-taught programmer from Brooklyn, NY.
+              A little over one year ago I decided to change careers from an athletic
+              trainer for kids to a full-stack developer and it has been an exciting
+              journey. In that time I have absorbed new languages and new ways of
               thinking and created a number of fun and challenging projects. I
-              am currently working for a web3 startup building front-end
-              components as well as components that link to the blockchain. I am
-              excited to continue my growth and build interesting projects.
-            </Typography>
+              am currently working at Nifty Art Collective, a Web3 startup,
+              building front-end React components as well as components that
+              link to the blockchain. I'm excited to continue my growth and
+              build interesting projects with cool people!
+            </p>
             <Hidden smUp>
               <Grid
                 item
@@ -31,82 +33,101 @@ export default function About() {
               </Grid>
             </Hidden>
             <Grid id="language-container" direction="row">
-              <Typography>Languages I have experience with:</Typography>
+              <Typography id="language-title">I have experience with:</Typography>
               <img
-                className="icon-image"
+                id="scale"
+                className="ten"
+                src={scale}
+                title="Experience Scale"
+              />
+              <img
+                id="html-icon"
+                className="icon-image eight"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                 title="HTML"
               />
               <img
-                className="icon-image"
+                id="css-icon"
+                className="icon-image eight"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                 title="CSS"
               />
+                <img
+                  id="materialui-icon"
+                  className="icon-image eight"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+                  title="MaterialUI"
+                />
               <img
-                className="icon-image"
+                id="js-icon"
+                className="icon-image seven"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                 title="Javascript"
               />
               <img
-                className="icon-image"
+                id="react-icon"
+                className="icon-image seven"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                 title="React"
               />
+                <img
+                  id="github-icon"
+                  className="icon-image six"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  title="Github"
+                />
               <img
-                className="icon-image"
+                id="bootstrap-icon"
+                className="icon-image five"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
                 title="Bootstrap"
               />
               <img
-                className="icon-image"
+                id="node-icon"
+                className="icon-image four"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                 title="Nodejs"
               />
               <img
-                className="icon-image"
+                id="express-icon"
+                className="icon-image four"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
                 title="Express"
               />
               <img
-                className="icon-image"
+                id="ruby-icon"
+                className="icon-image four"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
                 title="Ruby"
               />
               <img
-                className="icon-image"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
-                title="MaterialUI"
-              />
-              <img
-                className="icon-image"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                title="Github"
-              />
-              <img
-                className="icon-image"
+                id="heroku-icon"
+                className="icon-image four"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
                 title="Heroku"
               />
               <img
-                className="icon-image"
+                id="figma-icon"
+                className="icon-image four"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
                 title="Figma"
               />
               <img
-                className="icon-image"
+                id="threejs-icon"
+                className="icon-image four"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg"
                 title="ThreeJS"
               />
             </Grid>
           </Grid>
-          <Grid lg={3}></Grid>
-          <Hidden smDown>
+          <Grid lg={2}></Grid>
+          <Hidden xsDown>
             <Grid
               item
               className="profile-photo-div"
               direction="column"
               xs={12}
-              lg={4}
+              sm={4}
             >
               <img className="profile-image" src={KevinProfilePicture}></img>
             </Grid>
