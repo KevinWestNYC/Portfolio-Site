@@ -283,6 +283,9 @@ html {
 .project-button {
   margin: 5px !important;
 }
+.MuiButtonBase-root{
+  position: static !important;
+}
 
 /* .contact {
   padding-top: 33px;
