@@ -3,7 +3,7 @@ export let projectData = [
     imageLink: "https://media1.giphy.com/media/CX8q2cGB4k97tsbwPk/giphy.gif?cid=790b76119fefa548b85fd19a4b78ca2d85b58abd2c99e678&rid=giphy.gif",
     title: "WAX Login",
     body: "Created Web3 React component that integrates with the WAX blockchain to log-in along with surrounding components. ",
-    gitLink: "https://github.com/faoiseamh/nifty_web/tree/feature/wax_integration-nft_components",
+    gitLink: "",
     liveLink: "",
   },
   {

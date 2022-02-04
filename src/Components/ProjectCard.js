@@ -24,7 +24,7 @@ const useStyles = makeStyles({
     width: 250,
     marginTop: 20,
     marginLeft: 40,
-    // border: "0.5px solid lightgrey",
+    border: "0.5px solid lightgrey",
     borderRadius: 5
   },
   gifContainer: {}
@@ -84,7 +84,7 @@ export default function ImgMediaCard({projectData}) {
         </Button> 
 
 }
-{ projectData.gitLink !== "" &&
+{ projectData.gitLink !== "" ?
         <Button
         className="project-button"
 
@@ -95,7 +95,19 @@ export default function ImgMediaCard({projectData}) {
           href={projectData.gitLink}
         >
           Github
-        </Button>
+        </Button> :
+        <Button
+        className="project-button"
+
+          size="small"
+          color="primary"
+          variant="outlined"
+          target="_blank"
+          disabled
+          href={projectData.liveLink}
+        >
+          Private Git
+        </Button> 
 }
       </div>
     </Card>
