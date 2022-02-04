@@ -14,8 +14,8 @@ export default function About() {
               Hi, I'm Kevin! I'm a self-taught programmer from Brooklyn, NY.
               A little over one year ago I decided to change careers from an athletic
               trainer for kids to a full-stack developer and it has been an exciting
-              journey. In that time I have absorbed new languages and new ways of
-              thinking and created a number of fun and challenging projects. I
+              journey. In that time I have absorbed new languages, new ways of
+              thinking, and created a number of fun and challenging projects. I
               am currently working at Nifty Art Collective, a Web3 startup,
               building front-end React components as well as components that
               link to the blockchain. I'm excited to continue my growth and

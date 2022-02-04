@@ -31,7 +31,7 @@ export default function App() {
           <Contact />
         </section>
         <section id="footer">
-          <div>
+          <div className="footer-container">
             <div>Made by Kevin West</div>
             <div>
               <Link href="https://github.com/KevinWestNYC" target="_blank">
