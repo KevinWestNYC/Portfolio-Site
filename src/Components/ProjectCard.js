@@ -24,7 +24,7 @@ const useStyles = makeStyles({
     width: 250,
     marginTop: 20,
     marginLeft: 40,
-    border: "0.5px solid lightgrey",
+    border: "1px solid #F0f0f7",
     borderRadius: 5
   },
   gifContainer: {}
