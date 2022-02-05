@@ -6,7 +6,7 @@ import scale from "../Images/scale.png"
 export default function About() {
   return (
     <Container className="page-content">
-      <h1 className="page-title">About</h1>
+      <h1 className="page-title">ABOUT</h1>
       <Grid container>
         <Grid container direction="row">
           <Grid item id="about-text" direction="column" xs={12} sm={6}>

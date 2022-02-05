@@ -12,7 +12,7 @@ import ContactForm from '../Components/ContactForm'
 export default function Contact() {
   return (
     <div className="page-content">
-      <h1 className="page-title">Contact</h1>
+      <h1 className="page-title">CONTACT</h1>
       <div className="contact-form">
       <ContactForm />
       </div>

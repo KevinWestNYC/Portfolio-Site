@@ -186,7 +186,7 @@ html {
     /* z-index: 1; */
 }  
 .contact-form {
-    padding-top: 50px;
+    padding-top: 27px;
     padding-bottom: 50px;
 }
 
@@ -302,8 +302,9 @@ html {
 
 .page-title{
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
   font-size: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 33px;
 }
 
 .nav-link{

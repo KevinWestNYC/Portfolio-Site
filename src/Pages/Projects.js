@@ -9,7 +9,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 export default function Projects() {
   return (
     <Container className="page-content">
-      <h1 className="page-title">Projects</h1>
+      <h1 className="page-title">PROJECTS</h1>
       <Grid container direction="row" justifyContent="center">
       <Grid direction="column" xs={12}md={4}>
         <Hidden smDown>
