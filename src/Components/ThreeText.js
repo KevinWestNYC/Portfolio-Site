@@ -42,7 +42,7 @@ export default function ThreeText({
   }, [children]);
   return (
     <group {...props} scale={[0.1 * size, 0.1 * size, 0.1]}>
-      <mesh ref={mesh}>
+      <mesh ref={mesh} >
         <textGeometry args={[children, config]} />
         <meshNormalMaterial />
       </mesh>

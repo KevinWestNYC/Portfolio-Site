@@ -13,7 +13,7 @@ export default function Projects() {
       <Grid container direction="row" justifyContent="center">
       <Grid direction="column" xs={12}md={4}>
         <Hidden smDown>
-        <Canvas>
+        <Canvas >
           <ambientLight intensity={.8}/>
           <pointLight position={[10, 10, 10]} />
           <pointLight position={[-20, -10, -20]} />
@@ -28,7 +28,7 @@ export default function Projects() {
         </Grid>
         <Grid direction="column" xs={12} md={4}>
         <Hidden smDown>
-          <Canvas>
+          <Canvas >
             <ambientLight />
             <pointLight position={[10, 10, 10]} />
             <Box position={[0, 0, 0]} />

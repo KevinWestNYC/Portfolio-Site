@@ -226,19 +226,33 @@ html {
 }
 
 #about-text {
+  /* display:flex; */
   text-align: left;
   font-size: 20px;
   padding: 20px;
   font-family: 'Montserrat', sans-serif;
+  z-index:2;
 }
 
 .profile-photo-div {
-  text-align: center;
+  /* display:flex; */
+  align-items: center;
   padding: 10px;
   padding-top: 20px;
   animation-name: moveInFromLeft;
   animation-duration: 5s;
   margin: auto;
+  z-index: 1;
+}
+.small-profile-photo-div {
+  display:flex;
+  align-items: center;
+  padding: 10px;
+  padding-top: 20px;
+  animation-name: moveInFromLeft;
+  animation-duration: 5s;
+  margin: auto;
+  z-index: 1;
 }
 
 .profile-image {
@@ -246,7 +260,10 @@ html {
   width:auto;
   border-radius: 10px;
   text-align: center;
+}
 
+#small-profile-image{
+  height: 300px;
 }
 
 #language-container {

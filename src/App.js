@@ -34,17 +34,19 @@ export default function App() {
           <div className="footer-container">
             <div>Made by Kevin West</div>
             <div>
-              <Link href="https://www.linkedin.com/in/kevinwestnyc/" target="_blank">
-            <LinkedInIcon size="large"  />
-            </Link>
-            <Link href="https://github.com/KevinWestNYC" target="_blank">
-            <GitHubIcon size="large"  />
-            </Link>
+              <Link
+                href="https://www.linkedin.com/in/kevinwestnyc/"
+                target="_blank"
+              >
+                <LinkedInIcon size="large" />
+              </Link>
+              <Link href="https://github.com/KevinWestNYC" target="_blank">
+                <GitHubIcon size="large" />
+              </Link>
 
-            {/* <InstagramIcon size="large" href="https://github.com/KevinWestNYC" /> */}
+              {/* <InstagramIcon size="large" href="https://github.com/KevinWestNYC" /> */}
             </div>
           </div>
-          
         </section>
       </main>
     </div>

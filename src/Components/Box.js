@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 import ReactDOM from "react-dom";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { BoxBufferGeometry } from "three";
+import { softShadows } from "@react-three/drei"
+softShadows()
 
 export default function Box(props) {
   // This reference will give us direct access to the mesh
@@ -29,8 +31,8 @@ export default function Box(props) {
       onPointerOver={(event) => setHover(true)}
       onPointerOut={(event) => setHover(false)}
     >
-      <boxGeometry args={[2, 2, 2]} />
-      <meshStandardMaterial color={hovered ? pink : purple} />
+      <boxGeometry castShadow args={[2, 2, 2]} />
+      <meshStandardMaterial receiveShadow color={hovered ? pink : purple} />
     </mesh>
   );
 }

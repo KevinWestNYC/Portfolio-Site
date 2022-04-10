@@ -25,12 +25,12 @@ export default function About() {
             <Hidden smUp>
               <Grid
                 item
-                className="profile-photo-div"
+                className="small-profile-photo-div"
                 direction="column"
                 xs={12}
                 lg={4}
               >
-                <img className="profile-image" src={KevinProfilePicture}></img>
+                <img id="small-profile-image" className="profile-image" src={KevinProfilePicture}></img>
               </Grid>
             </Hidden>
             <Grid id="language-container" direction="row">
@@ -55,12 +55,12 @@ export default function About() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                 title="CSS"
               />
-              <img
-                id="materialui-icon"
-                className="icon-image eight"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
-                title="MaterialUI"
-              />
+                <img
+                  id="react-icon"
+                  className="icon-image eight"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  title="React"
+                />
               <img
                 id="js-icon"
                 className="icon-image seven"
@@ -68,10 +68,10 @@ export default function About() {
                 title="Javascript"
               />
               <img
-                id="react-icon"
-                className="icon-image seven"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                title="React"
+                id="materialui-icon"
+                className="icon-image eight"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+                title="MaterialUI"
               />
               <img
                 id="github-icon"
@@ -103,13 +103,18 @@ export default function About() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
                 title="Ruby"
               />
-              <img 
+              <img
                 id="typescript-icon"
                 className="icon-image four"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                 title="Typescript"
-                />
-
+              />
+              <img
+                id="graphql-icon"
+                className="icon-image four"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+                title="GraphQL"
+              />
               <img
                 id="heroku-icon"
                 className="icon-image four"
