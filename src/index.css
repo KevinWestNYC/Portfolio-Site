@@ -231,7 +231,6 @@ html {
   font-size: 20px;
   padding: 20px;
   font-family: 'Montserrat', sans-serif;
-  z-index:2;
 }
 
 .profile-photo-div {
@@ -242,7 +241,6 @@ html {
   animation-name: moveInFromLeft;
   animation-duration: 5s;
   margin: auto;
-  z-index: 1;
 }
 .small-profile-photo-div {
   display:flex;
@@ -252,7 +250,6 @@ html {
   animation-name: moveInFromLeft;
   animation-duration: 5s;
   margin: auto;
-  z-index: 1;
 }
 
 .profile-image {
