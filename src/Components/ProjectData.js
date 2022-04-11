@@ -23,7 +23,7 @@ export let projectData = [
   {
     imageLink: "https://i.imgur.com/SC6P6u8.gif",
     title: "Snake",
-    body: "Classic Snake game made using JavaScript and html canvas",
+    body: "Classic Snake game made using JavaScript and html canvas. (Desktop Only)",
     gitLink: "https://github.com/KevinWestNYC/Snake",
     liveLink: "https://kevinwestnyc.github.io/Snake/",
   },
