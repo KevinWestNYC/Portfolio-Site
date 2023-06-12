@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -11,24 +11,31 @@ import plaster from './plaster.jpg'
 import snakedemo from "../Images/snakedemo.gif"
 
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   root: {
     height: "97%",
     width: "97%",
     textAlign: "center",
-    borderRadius: 15
+    borderRadius: 15,
   },
   gif: {
     textAlign: "center",
-    height: 250,
-    width: 250,
+    height: 350,
+    width: 350,
     marginTop: 20,
-    marginLeft: 40,
+    marginLeft: 'auto',
+    marginRight: 'auto',
     border: "1px solid #F0f0f7",
-    borderRadius: 5
+    borderRadius: 5,
+    [theme.breakpoints.down("768")]: {
+      height: 250,
+      width: 250,
+      marginLeft: "auto",
+      marginRight: "auto",
+    },
   },
-  gifContainer: {}
-});
+  gifContainer: {},
+}));
 
 export default function ImgMediaCard({projectData}) {
   const classes = useStyles();
@@ -38,6 +45,7 @@ export default function ImgMediaCard({projectData}) {
     <Card className={classes.root}>
       <CardMedia
         className={classes.gif}
+        // className="projects-gif"
         component="img"
         alt={projectData.title}
         image={projectData.imageLink}
