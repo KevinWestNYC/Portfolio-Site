@@ -268,7 +268,14 @@ export default function About() {
                 alt="Javascript"
               />
               <img
-                id="materialui-icon"
+                id="postgresql-icon"
+                className="icon-image eight"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                title="PostgreSQL"
+                alt="PostgreSQL"
+              />
+              <img
+                id="algolia-icon"
                 className="icon-image eight"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/algolia/algolia-original.svg"
                 title="Algolia"
@@ -276,14 +283,14 @@ export default function About() {
               />
               <img
                 id="node-icon"
-                className="icon-image seven"
+                className="icon-image eight"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                 title="Nodejs"
                 alt="Nodejs"
               />
               <img
                 id="github-icon"
-                className="icon-image seven"
+                className="icon-image eight"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                 title="Github"
                 alt="Github"
@@ -294,13 +301,6 @@ export default function About() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
                 title="Express"
                 alt="Express"
-              />
-              <img
-                id="postgresql-icon"
-                className="icon-image seven"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-                title="PostgreSQL"
-                alt="PostgreSQL"
               />
               <img
                 id="firebase-icon"
@@ -358,13 +358,6 @@ export default function About() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
                 title="Azure"
                 alt="Azure"
-              />
-              <img
-                id="do-icon"
-                className="icon-image four"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg"
-                title="DigitalOcean"
-                alt="DigitalOcean"
               />
               <img
                 id="ruby-icon"
