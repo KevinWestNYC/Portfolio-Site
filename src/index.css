@@ -86,16 +86,28 @@ html {
   }
   
   .home {
+    /* background: #BAEDAF; */
+    /* background: #6784EB; */
+    /* background: #EB967F; */
+    /* background: #67EBC4; */
+    /* background: #187056; */
+    /* background: #31BD94; */
+    /* background: #16D96C; */
+    /* background: #0BD7D9; */
+    /* background: #93DFC8; */
     background: #bee5bf;
   }
   .about {
     background: #dff3e3;
+    /* background: #dff3e3; */
   }
   .projects {
+    /* background: #28BF92; */
     background: #bee5bf;
   }
   .contact {
     background: #dff3e3;
+    /* background: #dff3e3; */
   }
   
   .sticky {
@@ -409,6 +421,7 @@ html {
 #navbar {
   height: 66px;
   width: 100%;
+  /* background-color: #28BF92; */
   background-color: #bee5bf;
 }
 #scale {

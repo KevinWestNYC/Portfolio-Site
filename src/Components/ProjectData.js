@@ -1,8 +1,22 @@
 export let projectData = [
   {
+    imageLink: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzl4aGJ3bG5leXlwamNxYnc3NG00dDlia2RwNjYwa21zMXplcGI5dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/36tIvfgLZXBrWcDhQg/giphy.gif",
+    title: "Story Sprouts",
+    body: "Designed and developed a personalized children's story generator app for iPad and iOS devices.",
+    gitLink: "",
+    liveLink: "https://storysproutsapp.com/",
+  },
+  {
+    imageLink: "https://i.imgur.com/srCVXXX.gif",
+    title: "Dealmed AI Assistant",
+    body: "Designed and built an AI Assistant to help customers seamlessly access account information",
+    gitLink: "",
+    liveLink: "https://i.imgur.com/AHdd31M.mp4",
+  },
+  {
     imageLink: "https://media1.giphy.com/media/RRJJvXJcx2mnnpF47U/giphy.gif",
     title: "Dealmed Tracking",
-    body: "Designed and created order tracking app that process almost 1500 orders per month ",
+    body: "Designed and developed an order tracking system, processing 2000 orders monthly with real-time updates.",
     gitLink: "",
     liveLink: "https://i.imgur.com/65KDxe5.mp4",
   },

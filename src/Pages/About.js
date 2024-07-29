@@ -108,7 +108,7 @@ export default function About() {
           <Grid item id="about-text" direction="column" xs={12} md={6}>
             <p className="montserrat">
               Hello, I'm Kevin West, a Full Stack Developer based in Brooklyn,
-              NY. With expertise in React, Javascript, Node, Express, and SQL, I
+              NY. With expertise in React, React-Native, Javascript, Node, Express, and SQL, I
               have mastered the art of adapting to new technologies and
               delivering exceptional solutions.
               <br></br>
@@ -117,17 +117,16 @@ export default function About() {
               overcoming challenges and achieving significant milestones. During
               my tenure at Dealmed, I have had the opportunity to make impactful
               contributions, such as developing a robust order-tracking system.
-              This system efficiently manages an average of 525 orders per week,
+              This system efficiently manages an average of 2200 orders per month,
               ensuring smooth operations for our customers. Additionally, I
-              successfully implemented a proof-of-delivery image preservation
-              solution that processes over 700 images on a weekly basis,
-              enhancing the reliability of crucial business processes.
+              successfully created an AI assistant in order to help customers query
+              account information with ease.
               <br></br>
               <br></br>
               These accomplishments are just a glimpse into the broad range of
               value-adding initiatives I have undertaken at Dealmed. From
-              integrating their CMS and PIMS to spearheading other feature
-              enhancements, my time at the company has been truly rewarding and
+              integrating their CMS and PIMS to spearheading new features
+              every month, my time at the company has been truly rewarding and
               expansive. I take pride in my ability to tackle complex challenges
               head-on, constantly pushing the boundaries of my skill set.
               <br></br>
@@ -162,12 +161,10 @@ export default function About() {
               <br></br>
               <br></br>
               <p className="montserrat" id="about-text">
-              My passion for innovation and problem-solving extends beyond my
+              My passion for building and problem-solving extends beyond my
               professional pursuits. In my personal time, I thrive on exploring
-              new technologies, experimenting with creative projects, and
-              seeking inspiration from various sources. This drive and curiosity
-              fuel my continuous growth and commitment to delivering
-              cutting-edge solutions.
+              new technologies, and experimenting with creative projects like Story Sprouts,
+              my AI powered children's story generator application.
               <br></br>
               <br></br>
               Beyond coding, I find inspiration in exploring the landscapes of
@@ -180,13 +177,13 @@ export default function About() {
               development work.
               <br></br>
               <br></br>
-              When it comes to skills, I bring solid experience with React,
+              {/* When it comes to skills, I bring solid experience with React,
               Javascript, Node, Express, Prisma, and SQL to the table.
-              Additionally, I have experience with HTML/CSS, MaterialUI, Azure,
+              Additionally, I have experience with HTML/CSS, Azure,
               Netsuite, Cypress testing, blockchain integration, and Agile
               development methodologies.
               <br></br>
-              <br></br>
+              <br></br> */}
               If you are seeking a collaborative partner for an exciting project
               or looking to explore innovative ideas, I am here to contribute my
               skills, passion, and unique perspective. Let's embark on this
@@ -273,9 +270,9 @@ export default function About() {
               <img
                 id="materialui-icon"
                 className="icon-image eight"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
-                title="MaterialUI"
-                alt="MaterialUI"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/algolia/algolia-original.svg"
+                title="Algolia"
+                alt="Algolia"
               />
               <img
                 id="node-icon"
@@ -304,6 +301,41 @@ export default function About() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
                 title="PostgreSQL"
                 alt="PostgreSQL"
+              />
+              <img
+                id="firebase-icon"
+                className="icon-image seven"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+                title="Firebase"
+                alt="Firebase"
+              />
+              <img
+                id="digitalocean-icon"
+                className="icon-image seven"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/digitalocean/digitalocean-original.svg"
+                title="DigitalOcean"
+                alt="DigitalOcean"
+              />
+              <img
+                id="postman-icon"
+                className="icon-image seven"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+                title="Postman"
+                alt="Postman"
+              />
+              <img
+                id="prisma-icon"
+                className="icon-image seven"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg"
+                title="Prisma"
+                alt="Prisma"
+              />
+              <img
+                id="sentry-icon"
+                className="icon-image seven"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sentry/sentry-original.svg"
+                title="Sentry"
+                alt="Sentry"
               />
               <img
                 id="bootstrap-icon"
