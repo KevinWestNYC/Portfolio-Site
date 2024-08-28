@@ -27,13 +27,13 @@ export let projectData = [
     gitLink: "",
     liveLink: "",
   },
-  {
-    imageLink: "https://i.imgur.com/foxrUiW.png",
-    title: "Tweet Tweet",
-    body: "Tweet showcase app using React, Routing, Express, and Twitter's API to display and search Tweets.",
-    gitLink: "https://github.com/KevinWestNYC/TwitterApp",
-    liveLink: "https://kw-twitter-gallery-up7ev.ondigitalocean.app/",
-  },    
+  // {
+  //   imageLink: "https://i.imgur.com/foxrUiW.png",
+  //   title: "Tweet Tweet",
+  //   body: "Tweet showcase app using React, Routing, Express, and Twitter's API to display and search Tweets.",
+  //   gitLink: "https://github.com/KevinWestNYC/TwitterApp",
+  //   liveLink: "https://kw-twitter-gallery-up7ev.ondigitalocean.app/",
+  // },    
   {
     imageLink: "https://i.imgur.com/IilAkFL.gif",
     title: "Chit-Chat",
